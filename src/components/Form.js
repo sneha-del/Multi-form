@@ -30,6 +30,7 @@ const Form = () => {
             {PageDisplay()}
             <div className="footer">
               <button
+                className="btn"
                 disabled={page === 0}
                 onClick={() => {
                   setPage((currPage) => currPage - 1);
@@ -38,6 +39,7 @@ const Form = () => {
                 Prev
               </button>
               <button
+                className="btn"
                 onClick={() => {
                   if (page === FormTitles.length - 1) {
                     alert("FORM SUBMITTED");

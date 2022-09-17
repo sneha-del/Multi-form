@@ -5,6 +5,7 @@ const Signup = ({ formData, setFormData }) => {
     <>
       <div className="sign-up-container">
         <input
+          className="inp"
           type="text"
           placeholder="Email..."
           value={formData.email}
@@ -13,6 +14,7 @@ const Signup = ({ formData, setFormData }) => {
           }
         />
         <input
+          className="inp"
           type="text"
           placeholder="Password..."
           value={formData.password}
@@ -21,6 +23,7 @@ const Signup = ({ formData, setFormData }) => {
           }
         />
         <input
+          className="inp"
           type="text"
           placeholder="Confirm Password..."
           value={formData.confirmPassword}

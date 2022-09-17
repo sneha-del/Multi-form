@@ -5,6 +5,7 @@ const Personal = ({ formData, setFormData }) => {
     <>
       <div className="personal-info-container">
         <input
+          className="inp"
           type="text"
           placeholder="First Name..."
           value={formData.firstName}
@@ -13,6 +14,7 @@ const Personal = ({ formData, setFormData }) => {
           }}
         />
         <input
+          className="inp"
           type="text"
           placeholder="Last Name..."
           value={formData.lastName}
@@ -21,6 +23,7 @@ const Personal = ({ formData, setFormData }) => {
           }}
         />
         <input
+          className="inp"
           type="text"
           placeholder="Contact Number..."
           value={formData.username}

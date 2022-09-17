@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.form-container{
+  background-color: #10E68B;
+  padding: 5rem;
+  margin: 50px;
+}
+.header{
+  text-transform: capitalize;
+  font-size: x-large;
+  text-align: center;
+  color: #09834E;
+}
+.inp{
+  padding: 20px;
+  margin-left: 10px;
+width: 300px;
+  border-radius: 20px;
+  font-size: larger;
+}
+.btn{
+  height: 50px;
+  width: 100px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #A6F9D5;
+  margin-right: 10px;
+}
